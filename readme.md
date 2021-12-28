@@ -21,6 +21,7 @@ curl --location --request POST 'http://localhost:8080/salvamesa' \
 }\
 ]\
 }
+
 #Fechando mesa
 curl --location --request PUT 'http://localhost:8080/fecharpedido'
 
